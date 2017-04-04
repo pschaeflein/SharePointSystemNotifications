@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <!-- Parent ContentType: Item (0x01) -->
+  <ContentType ID="0x01006E5E6642A77149D596909C760A576234" Name="System Notification" Group="Schaeflein.Community.SystemNotification" Description="System notification message" Inherits="TRUE" Version="0">
+    <FieldRefs>
+      <FieldRef ID="{687a332a-e09a-48bc-9a58-b63d1d0aac1b}" DisplayName="Message Status" Required="TRUE" Name="MessageStatus" />
+      <FieldRef ID="{f643ec86-28c8-4e04-87c8-882e103dab4c}" DisplayName="Message Text" Required="TRUE" Name="MessageText" />
+      <FieldRef ID="{989fa5df-77ba-4408-b0d5-f7772c584331}" DisplayName="Message Scope" Required="TRUE" Name="MessageScope" />
+      <FieldRef ID="{6a01a72c-8ed8-49f9-a23b-0c84fb9d85db}" DisplayName="Information Link" Name="MessageInfoLink" />
+    </FieldRefs>
+  </ContentType>
+</Elements>

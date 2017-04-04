@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="0cabecf2-f6b2-436d-8922-5172fb26725d" solutionId="0cabecf2-f6b2-436d-8922-5172fb26725d" resetWebServer="false" sharePointProductVersion="15.0" name="Schaeflein.Community.SystemNotifications" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <features>
+    <featureReference itemId="07251a87-7095-4c5a-9d5f-583874fc6a6b" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="37644d02-5608-45b0-ae8c-2aa45c170364" />
+  </projectItems>
+</package>

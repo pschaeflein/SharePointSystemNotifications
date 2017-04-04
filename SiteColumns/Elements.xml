@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">  
+	<Field ID="{687a332a-e09a-48bc-9a58-b63d1d0aac1b}"
+				 Name="MessageStatus"
+				 DisplayName="Message Status"
+				 Type="Choice"
+				 Required="TRUE"
+				 Group="Schaeflein.Community.SystemNotification">
+		<CHOICES>
+			<CHOICE>Information</CHOICE>
+			<CHOICE>Success</CHOICE>
+			<CHOICE>Important</CHOICE>
+			<CHOICE>Very Important</CHOICE>
+			<CHOICE>Closed</CHOICE>
+		</CHOICES>
+		<Default>Information</Default>
+	</Field>
+	<Field ID="{989fa5df-77ba-4408-b0d5-f7772c584331}"
+				 Name="MessageScope"
+				 DisplayName="Message Scope"
+				 Type="Choice"
+				 Required="TRUE"
+				 Group="Schaeflein.Community.SystemNotification">
+		<CHOICES>
+			<CHOICE>Home page only</CHOICE>
+			<CHOICE>All pages</CHOICE>
+		</CHOICES>
+		<Default>Home page only</Default>
+	</Field>
+	<Field ID="{f643ec86-28c8-4e04-87c8-882e103dab4c}"
+				 Name="MessageText"
+				 DisplayName="Message Text"
+				 Type="Text"
+				 Required="TRUE"
+				 Group="Schaeflein.Community.SystemNotification">
+	</Field>
+	<Field ID="{6a01a72c-8ed8-49f9-a23b-0c84fb9d85db}"
+				 Name="MessageInfoLink"
+				 DisplayName="Information Link"
+				 Type="URL"
+				 Group="Schaeflein.Community.SystemNotification">
+	</Field>
+</Elements>

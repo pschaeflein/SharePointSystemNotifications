@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+	<ListInstance Title="System Notifications" OnQuickLaunch="TRUE" TemplateType="10000" Url="Lists/SystemNotifications" Description="Contains the messages displayed by the system notification control">
+		<Data>
+			<Rows>
+				<Row>
+					<Field Name="Title">Test entry</Field>
+					<Field Name="MessageStatus">Information</Field>
+					<Field Name="MessageText">This is a test entry</Field>
+				</Row>
+				<Row>
+					<Field Name="Title">Testing closed entry</Field>
+					<Field Name="MessageStatus">Closed</Field>
+					<Field Name="MessageText">This entry should not display</Field>
+				</Row>
+			</Rows>
+		</Data>
+	</ListInstance>
+</Elements>
